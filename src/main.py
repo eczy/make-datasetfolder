@@ -35,7 +35,7 @@ def make_datasetfolder(input, output, path_column, label_column, force=False, mo
         if ext == '.csv':
             delimiter = ','
         elif ext == '.tsv':
-            delimited = '\t'
+            delimiter = '\t'
         else:
             raise FileExtensionException('Input file type must be .csv or .tsv')
 
