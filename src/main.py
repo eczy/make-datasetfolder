@@ -46,7 +46,7 @@ def make_datasetfolder(input, output, path_column, label_column, force=False, mo
             has_header = csv.Sniffer().has_header(firstrow + secondrow)
 
             fin.seek(0)
-            reader = csv.reader(fin)
+            reader = csv.reader(fin, delimiter=delimiter)
             if has_header:
                 headers = list(next(reader))
             if not has_header or path_column not in headers or label_column not in headers:
