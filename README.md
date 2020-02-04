@@ -3,6 +3,7 @@ A utility to create a PyTorch DatasetFolder from any .csv or .tsv file with file
 
 ## Installation
 From PyPI: `pip install make-datasetfolder`
+
 From GitHub:
 ```
 git clone https://github.com/eczy/make-datasetfolder
