@@ -17,7 +17,7 @@ root/class_y/asd932_.ext
 This utility transforms any dataset with a table containing file paths and class labels into this format.
 
 ## Example
-Suppse you have `dataset.csv` of the form
+Suppse you have `dataset.csv` of the form:
 ```
 sample,class,some_feature,another_feature
 img-0001.jpg,0,foo,bar
@@ -25,7 +25,7 @@ some/relative/directory/img-0002.jpg,1,foo,bar
 ...
 ```
 
-Running `make-dataset-folder -p sample -l class dataset.csv output` will create a folder `output` with the following strucure:
+Running `make-dataset-folder -p sample -l class dataset.csv output` will create a folder `output` with the following structure:
 
 ```
 output/0/img-0001.jpg
