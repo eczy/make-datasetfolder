@@ -1,6 +1,14 @@
 # make-datasetfolder
 A utility to create a PyTorch DatasetFolder from any .csv or .tsv file with file path and class data.
 
+## Installation
+From PyPI: `pip install make-datasetfolder`
+From GitHub:
+```
+git clone https://github.com/eczy/make-datasetfolder
+pip install -e make-datasetfolder
+```
+
 ## Use Case
 In PyTorch, the `DataFolder` and `ImageFolder` classes provide a convenient interface for computer vision datasets structured as such:
 
